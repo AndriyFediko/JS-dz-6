@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dz 6 JS</title>
+</head>
+
+<body>
+    <script>
+        // TASK 1
+        console.log('----------------task 1');
+        let name = 'John';
+        let soname = 'Birtex';
+        console.log(`hello ${name} ${soname}`);
+        console.log('----------------task 1');
+        // TASK 1
+        // TASK 2
+        console.log('-------------------task 2');
+        let name2 = prompt('Enter your name');
+        let soname2 = prompt('Enter your soname');
+        console.log(`hello ${name2} ${soname2}`); 
+        let birthday = 2022 - prompt('Enter your birthday (year)');
+        console.log(`${name2}: ${birthday}`);
+        let birthdayDate = prompt('Enter your birthday (date)');
+        console.log(`${name2} ${birthdayDate}`);
+        if ((birthday + 2022) % 4 == 0){
+            console.log(`${2022 - birthday} - високосний`);
+        } else{
+            console.log(`${2022 -birthday} - не високосний`);
+        }
+        console.log('------------------------task 2');
+        // TASK 2
+        // TASK 3
+        console.log('------------------------Task 3');
+        let numbers = [];
+        for (; numbers.length !=10;) {
+            numbers.push(Math.floor(Math.random() * 100))
+        }
+        console.log(numbers);
+        if (numbers[0] % 2 == 0){
+            console.log(numbers[0] + ' - even number')
+        } else {
+            console.log(numbers[0] + ' - not an even number')
+        }
+        if (numbers[numbers.length-1] % 2 == 0){
+            console.log(numbers[numbers.length-1] + ' - even number')
+        } else {
+            console.log(numbers[numbers.length-1] + ' - not an even number')
+        }
+        console.log('------------Task 3');
+        // TASK 3
+        // TASK 4
+        console.log('---------------Task 4');
+        console.log('--------------Task 4');
+        // TASK 4
+        // TASK 5
+        console.log('Task 5');
+        let a = prompt('Enter number a');
+        let b = prompt('Enter number b');
+        console.log(`${a} + ${b} = ${(+a)+(+b)}`);
+        let c = prompt('Enter number c');
+        let d = prompt('Enter number d');
+        console.log(`${c} - ${d} = ${(+c)-(+d)}`);
+        let e = prompt('Enter number e');
+        let f = prompt('Enter number f');
+        console.log(`${c} * ${d} = ${(+e)*(+f)}`);
+        let g = prompt('Enter number g');
+        let h = prompt('Enter number h');
+        console.log(`${c} / ${d} = ${(+g)/(+h)}`);
+        let n = prompt('Enter number n');
+        let k = prompt('Enter number k');
+        if ((+n) > (+k)){
+            console.log('Bigger number: ' + n)
+        } else{
+            console.log('Bigger number: ' + k)
+        }
+        let x = prompt('Enter number x');
+        let y = prompt('Enter number y');
+        let z = prompt('Enter number z');
+        if ((+x) < (+y) && (+x) < (+z)){
+            console.log('smaller number: ' + x);
+        } else if ((+y) < (+x) && (+y) < (+z)){
+            console.log('smaller number: ' + y);
+        } else{
+            console.log('smaller number: ' + z);
+        }
+        console.log('----------Task 5');
+        // TASK 5
+        // TASK 6
+        console.log('----------------Task 6');
+        let friends = [
+            friend = {
+                name: 'John',
+                soName: 'Birtex',
+                birthdayDate2: '19.02',
+                age: 18,
+                phoneNumber: '06534231',
+                gmail: 'frend1@gmail.com',
+                films: [
+                    film1 = 'film1',
+                    film2 = 'film2',
+                    film3 = 'film3',
+                ],
+                books: [
+                    book1 = 'book1',
+                    book2 = 'book2',
+                    book3 = 'book3',
+                ],
+            },
+            friend = {
+                name: 'Jonson',
+                soName: 'Dwayne',
+                birthdayDate2: '19.03',
+                age: 50,
+                phoneNumber: '010348923',
+                gmail: 'frend2@gmail.com',
+                films: [
+                    film1 = 'film1',
+                    film2 = 'film2',
+                    film3 = 'film3',
+                ],
+                books: [
+                    book1 = 'book1',
+                    book2 = 'book2',
+                    book3 = 'book3',
+                ],
+            },
+            friend = {
+                name: 'Barak',
+                soName: 'Obama',
+                birthdayDate2: '19.04',
+                age: 69,
+                phoneNumber: '045342345',
+                gmail: 'frend2@gmail.com',
+                films: [
+                    film1 = 'film1',
+                    film2 = 'film2',
+                    film3 = 'film3',
+                ],
+                books: [
+                    book1 = 'book1',
+                    book2 = 'book2',
+                    book3 = 'book3',
+                ],
+            },
+            friend = {
+                name: 'Alex',
+                soName: 'Cloud',
+                birthdayDate2: '19.05',
+                age: 24,
+                phoneNumber: '03242454',
+                gmail: 'frend2@gmail.com',
+                films: [
+                    film1 = 'film1',
+                    film2 = 'film2',
+                    film3 = 'film3',
+                ],
+                books: [
+                    book1 = 'book1',
+                    book2 = 'book2',
+                    book3 = 'book3',
+                ],
+            },
+            friend = {
+                name: 'Messi',
+                soName: 'Lionel',
+                birthdayDate2: '19.06',
+                age: 35,
+                phoneNumber: '0523423423',
+                gmail: 'frend2@gmail.com',
+                films: [
+                    film1 = 'film1',
+                    film2 = 'film2',
+                    film3 = 'film3',
+                ],
+                books: [
+                    book1 = 'book1',
+                    book2 = 'book2',
+                    book3 = 'book3',
+                ],
+            }
+        ];
+        console.log(friends[0].name +':',friends[0].phoneNumber);
+        console.log(friends[1].soName +':',friends[1].age);
+        console.log(friends[2].name,friends[2].soName,friends[2].gmail);
+        console.log(friends[3].name +':',friends[3].films)
+        console.log(friends[4].name +':',friends[4].films[0])
+        console.log('-------------Task 6');
+        // TASK 6
+    </script>
+</body>
+</html>
